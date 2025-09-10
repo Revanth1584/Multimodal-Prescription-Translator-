@@ -1,44 +1,64 @@
 
-Multimodal Prescription Translator 🩺🎧
+🎧 Multimodal Prescription Audio Translator
 
-Live Demo: Try it here!
+Automatically transcribe patient audio and translate it into your preferred language — making multilingual medical workflows simpler and faster.
 
-A lightweight web app that transcribes patient audio and translates it into your preferred language. Perfect for medical workflows or multilingual healthcare support.
+📸 Overview
 
-Tech Stack 🛠️
+Patients or doctors often record audio instructions or symptoms. Understanding these in another language can be difficult. This app:
+
+Transcribes patient audio into text
+
+Translates the transcription into a selected language
+
+Outputs both the original and translated text
+
+Perfect for multilingual healthcare support or quick patient note understanding.
+
+🚀 Live Demo
+
+Try it live (mobile-friendly) 👉 Hugging Face Space
+
+How to use:
+
+Upload a patient audio file 🎤
+
+Choose the target language 🌐
+
+Get instant transcription + translation 📝
+
+🛠️ Tech Stack
 
 Python 3.10 – backend logic
 
 Gradio 5 – interactive web interface
 
-SpeechRecognition – audio transcription
+SpeechRecognition – transcribes audio
 
-Pydub – audio file processing
+Pydub – converts audio formats
 
-Deep Translator (GoogleTranslator) – translation service
+Deep Translator (GoogleTranslator) – translates text
 
-Hugging Face Spaces – hosting platform
+Hugging Face Spaces – hosting & deployment
 
-Optional (if OCR added later):
+🧠 How It Works
 
-Pytesseract – text extraction from images
+🎤 Audio Upload – Upload the patient’s voice recording
 
-How It Works 🚀
+🔊 Audio Processing – Convert uploaded audio to WAV for processing
 
-🎤 Upload Audio – Patient describes symptoms in their native language.
+📝 Transcription – SpeechRecognition converts audio to text
 
-🔊 Audio Processing – The app converts the audio into a compatible WAV format.
+🌐 Translation – GoogleTranslator translates text to the selected language
 
-📝 Transcription – SpeechRecognition converts the audio to text.
+📄 Output – See both the original transcription and the translated text
 
-🌐 Translation – The text is translated into the chosen language using Google Translator.
+✨ Future Enhancements
 
-📄 Output – You get both the original transcription and the translated text.
+Add handwritten prescription OCR for multimodal input
 
-Future Enhancements 🔮
+Expand supported languages beyond the current set
 
-Add handwritten prescription OCR for full multimodal input.
+Implement custom UI themes and animations for better UX
 
-Custom UI themes and animations for better UX.
-
-Support more languages for broader accessibility.
+Integrate medical abbreviation expansion for doctor’s notes
