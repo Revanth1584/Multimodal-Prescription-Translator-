@@ -1,188 +1,83 @@
 
-🎧 Multimodal Prescription Audio Translator
+🩺 Multimodal Medical Prescription Translator
 
-Automatically transcribe patient audio and translate it into your preferred language — making multilingual medical workflows simpler and faster.
-
-📸 Overview
-
-Patients or doctors often record audio instructions or symptoms. Understanding these in another language can be difficult. This app:
-
-Transcribes patient audio into text
-
-Translates the transcription into a selected language
-
-Outputs both the original and translated text
-
-Perfect for multilingual healthcare support or quick patient note understanding.
-
-🚀 Live Demo
-
-Try it live (mobile-friendly) 👉 https://revanthkaushik-multimodal-prescription-translate.hf.space/?__theme=dark&deep_link=piLVVlhNYTE
-
-Automatically transcribe patient audio and translate it into your preferred language — making multilingual medical workflows simpler and faster.
+Instant audio-based prescription translation in multiple languages
 
 📸 Overview
 
-Patients or doctors often record audio instructions or symptoms. Understanding these in another language can be difficult. This app:
+Doctors often give prescriptions verbally or in local languages. This app:
 
-Transcribes patient audio into text
+🎙️ Takes audio input from the patient.
 
-Translates the transcription into a selected language
+🌐 Translates it into Hindi, Telugu, Tamil, or Malayalam.
 
-Outputs both the original and translated text
-
-Perfect for multilingual healthcare support or quick patient note understanding.
+⚡ Provides quick, accurate text output for understanding prescriptions.
 
 🚀 Live Demo
 
-Try it live (mobile-friendly) 👉 Hugging Face Space
+Try it here 👉 Hugging Face Space
 
-How to use:
-
-Upload a patient audio file 🎤
-
-Choose the target language 🌐
-
-Get instant transcription + translation 📝
+(Mobile-friendly & interactive)
 
 🛠️ Tech Stack
 
-Python 3.10 – backend logic
+Python – main programming language 🐍
 
-Gradio 5 – interactive web interface
+Gradio – interactive web interface 🎨
 
-SpeechRecognition – transcribes audio
+SpeechRecognition & pydub – audio transcription 🎧
 
-Pydub – converts audio formats
+Google Translator API – language translation 🌐
 
-Deep Translator (GoogleTranslator) – translates text
-
-Hugging Face Spaces – hosting & deployment
+Hugging Face Spaces – deployment & hosting 🚀
 
 🧠 How It Works
 
-🎤 Audio Upload – Upload the patient’s voice recording
+Upload audio of the prescription 🗣️
 
-🔊 Audio Processing – Convert uploaded audio to WAV for processing
+Audio transcription converts speech to text 📝
 
-📝 Transcription – SpeechRecognition converts audio to text
+Translation converts text to the chosen language 🌎
 
-🌐 Translation – GoogleTranslator translates text to the selected language
+Output displays original + translated text ✨
 
-📄 Output – See both the original transcription and the translated text
+💡 Features
 
-✨ Future Enhancements
+🎯 Multi-language support (Hindi, Telugu, Tamil, Malayalam)
 
-Add handwritten prescription OCR for multimodal input
+⚡ Fast transcription & translation
 
-Expand supported languages beyond the current set
+📱 Mobile-friendly interface
 
-Implement custom UI themes and animations for better UX
+🔧 Easy deployment on Hugging Face
 
-Integrate medical abbreviation expansion for doctor’s notes
+📂 Project Structure
+app.py                # Main Gradio app
+requirements.txt      # Python dependencies
+README.md             # Project overview
 
-Automatically transcribe patient audio and translate it into your preferred language — making multilingual medical workflows simpler and faster.
+🖌️ Usage
 
-📸 Overview
+Click “Upload Patient Audio” 🎧
 
-Patients or doctors often record audio instructions or symptoms. Understanding these in another language can be difficult. This app:
+Select target language 🌐
 
-Transcribes patient audio into text
+Press Submit ✅
 
-Translates the transcription into a selected language
+Get translated prescription text instantly ✨
 
-Outputs both the original and translated text
+📌 Future Enhancements
 
-Perfect for multilingual healthcare support or quick patient note understanding.
+Add handwritten text OCR 🖊️
 
-🚀 Live Demo
+Expand medical abbreviation detection 💊
 
-Try it live (mobile-friendly) 👉 Hugging Face Space
+Include voice feedback 🔊
 
-How to use:
+⭐ Contribute
 
-Upload a patient audio file 🎤
+Fork the repo
 
-Choose the target language 🌐
+Push updates
 
-Get instant transcription + translation 📝
-
-🛠️ Tech Stack
-
-Python 3.10 – backend logic
-
-Gradio 5 – interactive web interface
-
-SpeechRecognition – transcribes audio
-
-Pydub – converts audio formats
-
-Deep Translator (GoogleTranslator) – translates text
-
-Hugging Face Spaces – hosting & deployment
-
-🧠 How It Works
-
-🎤 Audio Upload – Upload the patient’s voice recording
-
-🔊 Audio Processing – Convert uploaded audio to WAV for processing
-
-📝 Transcription – SpeechRecognition converts audio to text
-
-🌐 Translation – GoogleTranslator translates text to the selected language
-
-📄 Output – See both the original transcription and the translated text
-
-✨ Future Enhancements
-
-Add handwritten prescription OCR for multimodal input
-
-Expand supported languages beyond the current set
-
-Implement custom UI themes and animations for better UX
-
-Integrate medical abbreviation expansion for doctor’s notes
-
-How to use:
-
-Upload a patient audio file 🎤
-
-Choose the target language 🌐
-
-Get instant transcription + translation 📝
-
-🛠️ Tech Stack
-
-Python 3.10 – backend logic
-
-Gradio 5 – interactive web interface
-
-SpeechRecognition – transcribes audio
-
-Pydub – converts audio formats
-
-Deep Translator (GoogleTranslator) – translates text
-
-Hugging Face Spaces – hosting & deployment
-
-🧠 How It Works
-
-🎤 Audio Upload – Upload the patient’s voice recording
-
-🔊 Audio Processing – Convert uploaded audio to WAV for processing
-
-📝 Transcription – SpeechRecognition converts audio to text
-
-🌐 Translation – GoogleTranslator translates text to the selected language
-
-📄 Output – See both the original transcription and the translated text
-
-✨ Future Enhancements
-
-Add handwritten prescription OCR for multimodal input
-
-Expand supported languages beyond the current set
-
-Implement custom UI themes and animations for better UX
-
-Integrate medical abbreviation expansion for doctor’s notes
+Your changes will auto-deploy on Hugging Face Spaces!
