@@ -48,5 +48,4 @@ Try it live (mobile-friendly) 👉 [Multimodal Prescription Translator](https://
 
 ---
 
-## 📁 Project Structure
 
