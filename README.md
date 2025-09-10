@@ -1,9 +1,9 @@
 
-🩺 Multimodal Medical Prescription Translator
+#🩺 Multimodal Medical Prescription Translator
 
-Instant audio-based prescription translation in multiple languages
+##Instant audio-based prescription translation in multiple languages
 
-📸 Overview
+#📸 Overview
 
 Doctors often give prescriptions verbally or in local languages. This app:
 
@@ -13,13 +13,13 @@ Doctors often give prescriptions verbally or in local languages. This app:
 
 ⚡ Provides quick, accurate text output for understanding prescriptions.
 
-🚀 Live Demo
+#🚀 Live Demo
 
 Try it here 👉 Hugging Face Space
 
 (Mobile-friendly & interactive)
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 Python – main programming language 🐍
 
@@ -31,7 +31,7 @@ Google Translator API – language translation 🌐
 
 Hugging Face Spaces – deployment & hosting 🚀
 
-🧠 How It Works
+#🧠 How It Works
 
 Upload audio of the prescription 🗣️
 
@@ -41,7 +41,7 @@ Translation converts text to the chosen language 🌎
 
 Output displays original + translated text ✨
 
-💡 Features
+#💡 Features
 
 🎯 Multi-language support (Hindi, Telugu, Tamil, Malayalam)
 
@@ -51,12 +51,12 @@ Output displays original + translated text ✨
 
 🔧 Easy deployment on Hugging Face
 
-📂 Project Structure
+#📂 Project Structure
 app.py                # Main Gradio app
 requirements.txt      # Python dependencies
 README.md             # Project overview
 
-🖌️ Usage
+#🖌️ Usage
 
 Click “Upload Patient Audio” 🎧
 
@@ -66,7 +66,7 @@ Press Submit ✅
 
 Get translated prescription text instantly ✨
 
-📌 Future Enhancements
+#📌 Future Enhancements
 
 Add handwritten text OCR 🖊️
 
@@ -74,7 +74,7 @@ Expand medical abbreviation detection 💊
 
 Include voice feedback 🔊
 
-⭐ Contribute
+#⭐ Contribute
 
 Fork the repo
 
