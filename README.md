@@ -1,83 +1,52 @@
+# 🩺 Multimodal Prescription Translator
 
-#🩺 Multimodal Medical Prescription Translator
+Automatically transcribe patient audio and translate it into multiple languages for easier medical understanding.  
 
-##Instant audio-based prescription translation in multiple languages
+---
 
-#📸 Overview
+## 📸 Overview
 
-Doctors often give prescriptions verbally or in local languages. This app:
+Doctors and healthcare professionals often give verbal instructions or write short notes in prescriptions. Understanding them can be challenging for patients. This app:
 
-🎙️ Takes audio input from the patient.
+- Transcribes patient audio 🎤
+- Translates the extracted text 🌐
+- Provides a simple interface for quick results 🖥️  
 
-🌐 Translates it into Hindi, Telugu, Tamil, or Malayalam.
+---
 
-⚡ Provides quick, accurate text output for understanding prescriptions.
+## 🚀 Live Demo
 
-#🚀 Live Demo
+Try it live (mobile-friendly) 👉 [Multimodal Prescription Translator](https://revanthkaushik-multimodal-prescription-translate.hf.space/?__theme=dark&deep_link=izwRpCP-cIc)
 
-Try it here 👉 Hugging Face Space
+**How to use:**
 
-(Mobile-friendly & interactive)
+1. Upload a patient audio file 🎧  
+2. Select target language 🌎  
+3. Get instant transcription and translation ✨  
 
-#🛠️ Tech Stack
+---
 
-Python – main programming language 🐍
+## 🛠️ Tech Stack
 
-Gradio – interactive web interface 🎨
+- **Python** – Core logic and processing 🐍  
+- **Gradio** – Interactive web UI 🎨  
+- **SpeechRecognition & pydub** – Audio transcription 🎤  
+- **deep-translator** – Multilingual translation 🌐  
+- **Hugging Face Spaces** – Free hosting & deployment 🚀  
 
-SpeechRecognition & pydub – audio transcription 🎧
+---
 
-Google Translator API – language translation 🌐
+## 🧠 How It Works
 
-Hugging Face Spaces – deployment & hosting 🚀
+1. Upload an audio file 🎧  
+2. The app converts it to a compatible format (`wav`)  
+3. Audio is transcribed to text using **SpeechRecognition**  
+4. Transcribed text is sent to **GoogleTranslator** for target language translation  
+5. Results are displayed in two boxes:
+   - Extracted text 🔹  
+   - Translated text 🔹  
 
-#🧠 How It Works
+---
 
-Upload audio of the prescription 🗣️
+## 📁 Project Structure
 
-Audio transcription converts speech to text 📝
-
-Translation converts text to the chosen language 🌎
-
-Output displays original + translated text ✨
-
-#💡 Features
-
-🎯 Multi-language support (Hindi, Telugu, Tamil, Malayalam)
-
-⚡ Fast transcription & translation
-
-📱 Mobile-friendly interface
-
-🔧 Easy deployment on Hugging Face
-
-#📂 Project Structure
-app.py                # Main Gradio app
-requirements.txt      # Python dependencies
-README.md             # Project overview
-
-#🖌️ Usage
-
-Click “Upload Patient Audio” 🎧
-
-Select target language 🌐
-
-Press Submit ✅
-
-Get translated prescription text instantly ✨
-
-#📌 Future Enhancements
-
-Add handwritten text OCR 🖊️
-
-Expand medical abbreviation detection 💊
-
-Include voice feedback 🔊
-
-#⭐ Contribute
-
-Fork the repo
-
-Push updates
-
-Your changes will auto-deploy on Hugging Face Spaces!
