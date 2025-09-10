@@ -17,7 +17,7 @@ Perfect for multilingual healthcare support or quick patient note understanding.
 
 🚀 Live Demo
 
-Try it live (mobile-friendly) 👉 🎧 Multimodal Prescription Audio Translator
+Try it live (mobile-friendly) 👉 https://revanthkaushik-multimodal-prescription-translate.hf.space/?__theme=dark&deep_link=piLVVlhNYTE
 
 Automatically transcribe patient audio and translate it into your preferred language — making multilingual medical workflows simpler and faster.
 
